@@ -31,7 +31,7 @@ if 'text_entry_count' not in st.session_state:
     st.session_state['text_entry_count'] = 0
 
 
-qa = pipeline("table-question-answering", model="microsoft/tapex-large-finetuned-wtq")
+qa = pipeline("table-question-answering", model="google/tapas-mini-finetuned-sqa")
 
 import json
 
