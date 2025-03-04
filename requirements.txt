@@ -1,0 +1,3 @@
+pyjwt
+transformers
+torch
